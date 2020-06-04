@@ -7,8 +7,8 @@ from tkinter import filedialog
 
 # Create a Window.
 MyWindow = Tk() # Create a window
-MyWindow.title("First GUI") # Change the Title of the GUI
-MyWindow.geometry('400x200') # Set the size of the Windows
+MyWindow.title("COVID-19 Classifier") # Change the Title of the GUI
+MyWindow.geometry('600x400') # Set the size of the Windows
 
 
 # Create the GUI Component but dont display or add them to the window yet.
@@ -28,7 +28,6 @@ def openImg(filename):
     # Open the image using OPENCV
     # img = imread(filename)
     # cv.imshow(img)
-
 
 
 # Create Event Methods attached to the button etc.
